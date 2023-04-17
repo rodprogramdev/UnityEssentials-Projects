@@ -900,6 +900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ecb26fee45c3fe4c845d54baf0ad41c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myMessage: Hello I'm Rod!
 --- !u!1001 &4962770582217044726
 PrefabInstance:
   m_ObjectHideFlags: 0
