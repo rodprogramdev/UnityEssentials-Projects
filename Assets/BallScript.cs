@@ -6,6 +6,7 @@ public class BallScript : MonoBehaviour
 {
     public string myMessage;
     public Vector3 scaleChange;
+    public Vector3 positionChange;
 
     // Start is called before the first frame update
     void Start()
@@ -17,6 +18,7 @@ public class BallScript : MonoBehaviour
     void Update()
     {
         transform.localScale += scaleChange;
+        transform.position += positionChange;
         Debug.Log(myMessage);
 
     }
