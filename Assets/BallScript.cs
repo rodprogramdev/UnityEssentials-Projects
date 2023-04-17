@@ -5,6 +5,8 @@ using UnityEngine;
 public class BallScript : MonoBehaviour
 {
     public string myMessage;
+    public Vector3 scaleChange;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,6 +16,8 @@ public class BallScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        transform.localScale += scaleChange;
         Debug.Log(myMessage);
+
     }
 }
